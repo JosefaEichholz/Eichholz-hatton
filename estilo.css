@@ -4,7 +4,7 @@
 }
 
 body{
-	background:rgba(254, 235, 244, 1);
+	background:rgba(49, 61, 68, 0.24);
 	color:rgba(255, 255, 255, 1);
 	font-family: 'Fjalla', sans-serif;
 	font-weight:300;
@@ -134,7 +134,7 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right,rgba(255,0,255,0.3););
+	background:linear-gradient(to bottom right,rgba(49, 61, 68, 0.24););
 }
 
 .item {
