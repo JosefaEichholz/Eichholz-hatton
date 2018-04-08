@@ -4,43 +4,43 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
-	color:rgba(25,25,25,1);
-	font-family: 'Poppins', sans-serif;
+	background:rgba(254, 235, 244, 1);
+	color:rgba(255, 255, 255, 1);
+	font-family: 'Fjalla', sans-serif;
 	font-weight:300;
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+	font-family: 'Fjalla', sans-serif;
+	font-weight:700;
 }
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	color:rgba(255, 255, 255, 1);
+	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
-	text-shadow: 1px 1px 0 #999;
-	text-align:center;		
+	letter-spacing:0.02em;
+	color:rgba(255, 255, 255, 1);
+	padding:0.2em 0;
+	text-shadow: 0px 0px 0 #999;
+	text-align:center;
 }
 
 h3{
-	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
-	padding:2em 0 0.6em 0; 
+	letter-spacing:0.2em;
+	color:rgba(255, 255, 255, 1);
+	padding:2em 0 0.6em 0;
 	text-shadow: 1px 1px 0 #ccc;
-	text-align:center;	
+	text-align:center;
 }
 
 h4, h5, h6{
 	font-weight:left;
-	font-weight:600; 	
+	font-weight:1200;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -83,7 +83,7 @@ video{
 .dupla a{
 	color:rgba(255,0,0,0.75);
 	text-decoration:none;
-	font-weight:700;
+	font-weight:1000;
 }
 
 .dupla a:hover{
@@ -92,10 +92,10 @@ video{
 }
 
 .primera{
-	min-height:300px;
-	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	min-height:365px;
+	text-align:border-left;
+	background-color:rgba(255, 255, 255, 1);
+	background-image:url('media/josefa.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -106,13 +106,13 @@ video{
 
 .primera p{padding: 2% 40% 2% 2%;}
 
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 2% 40% 2% 2%; font-size:1em; font-style:normal;}
 
 .segunda{
-	min-height:300px;
+	min-height:365px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	background-color:rgba(255,0,255,0.3);
+	background-image:url('media/caro.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -124,7 +124,7 @@ video{
 
 .segunda p{padding: 2% 2% 2% 40%;}
 
-.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+.segunda address{padding: 2% 2% 2% 40%; font-size:1em; font-style:normal;}
 
 #somos hr{
 	clear:both;
@@ -134,7 +134,7 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
+	background:linear-gradient(to bottom right,rgba(255,0,255,0.3););
 }
 
 .item {
@@ -145,7 +145,7 @@ video{
 	box-shadow:0 0 5px rgba(0,0,0,.1);
 }
 
-.item:hover{
+#.item:hover{
 	cursor:crosshair;
 }
 
@@ -154,26 +154,26 @@ video{
 }
 
 .item figure img{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:-4px;
-	filter: grayscale(1);
+	filter: drop-shadow(16px 16px 20px pink);
 }
 
 .item:hover figure img{
-	transform:scale(1.25);
-	filter: grayscale(0);	
+	transform:scale(1.10);
+	filter: sepia(40%);
 	transition:all ease-out 0.5s;
 }
 
 .item h4{
-	font-size:1em;
+	font-size:2em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
 }
 
 .item p{
-	font-size:0.875em;
+	font-size:1em;
 	letter-spacing:0.05em;
 	margin:2% 5% 6% 5%;
 }
@@ -182,8 +182,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'Fjalla', sans-serif;
+	font-weight:700;
 }
 
 footer p{
